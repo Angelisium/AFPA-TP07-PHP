@@ -11,6 +11,10 @@
 			$this->adresse = $c;
 		}
 
+		public function __destruct() {
+			echo 'Destroying: ', $this->nom, PHP_EOL;
+		}
+
 		public function setAdresse(string $a): void {
 			$this->adresse = $a;
 		}
