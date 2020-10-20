@@ -5,7 +5,7 @@
 	});
 
 	$a = new Form(array(
-		
+		'action' => $_SERVER['PHP_SELF'],
 	));
 
 	var_dump($a);
