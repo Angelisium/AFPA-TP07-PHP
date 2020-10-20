@@ -17,5 +17,7 @@
 	$ville3->setCode(33000);
 
 	var_dump($ville1);
+	var_dump($ville2);
+	var_dump($ville3);
 
 ?>
