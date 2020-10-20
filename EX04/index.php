@@ -4,4 +4,5 @@
 		require $name . '.class.php';
 	});
 
+	$a = new Form();
 ?>
