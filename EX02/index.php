@@ -5,9 +5,7 @@
 	});
 
 	$ville1 = new Ville("Niort", 79000);
-
 	$ville2 = new Ville("Paris", 75001);
-
 	$ville3 = new Ville("Bordeaux", 33000);
 
 	var_dump($ville1);
