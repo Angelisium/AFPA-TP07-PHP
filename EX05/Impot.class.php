@@ -1,7 +1,7 @@
 <?php
 
 	class Impot {
-		const TAUX = [20, 15];
+		const TAUX = [15, 20];
 		private $nom;
 		private $revenu;
 
@@ -15,7 +15,8 @@
 		}
 
 		public function CalculImpot(): int {
-			return $this->revenu * self::TAUX[1] / 100;
+			$r = $this->revenu;
+			return $r * self::TAUX[$r>15000] / 100;
 		}
 	}
 
