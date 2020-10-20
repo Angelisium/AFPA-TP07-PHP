@@ -8,6 +8,10 @@
 			$this->nom = $a;
 			$this->revenu = $b;
 		}
+
+		public function AfficherImpot(): string {
+			return "Mr/Mme " . $this->nom . " votre impot est de " . '' . " euros.";
+		}
 	}
 
 ?>
