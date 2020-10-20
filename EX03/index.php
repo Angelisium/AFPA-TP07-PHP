@@ -8,4 +8,8 @@
 	$p2 = new Personne("Toto", "Lamalice", "Paris");
 	$p3 = new Personne("Jack", "O'Lantern", "Graveyard"); // Happy Halloween :3
 
+	echo $p1->getPersonne();
+	echo $p2->getPersonne();
+	echo $p3->getPersonne();
+
 ?></pre>
