@@ -12,6 +12,10 @@
 	$ville2->setNom("Paris");
 	$ville2->setCode(75001);
 
+	$ville3 = new Ville();
+	$ville3->setNom("Bordeaux");
+	$ville3->setCode(33000);
+
 	var_dump($ville1);
 
 ?>
