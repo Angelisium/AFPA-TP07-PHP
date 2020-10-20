@@ -16,6 +16,14 @@
 			}
 		}
 
+		public function setText(string $name, string $label): void {
+			$this->form .= "\t\t<label for=" . '"'. $name .'">' . $label . "\n";
+			$this->form .= "\t\t\t<input type=" . '"text"';
+				$this->form .= " name=" . '"' . $name . '"';
+				$this->form .= " id=" . '"' . $name . '">' . "\n";
+			$this->form .= "\t\t</label>\n";
+		}
+
 		public function getForm(): string {
 			return $this->form . "\t</fieldset>\n</form>";
 		}
