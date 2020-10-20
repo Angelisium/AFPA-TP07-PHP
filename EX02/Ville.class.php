@@ -4,7 +4,7 @@
 		private $nom;
 		private $code;
 
-		public function __construct(string $a, string $b) {
+		public function __construct(string $a, int $b) {
 			$this->nom = $a;
 			$this->code = $b;
 		}
