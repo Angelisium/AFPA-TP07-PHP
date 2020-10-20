@@ -1,10 +1,10 @@
-<pre><?php
+<?php
 
 	spl_autoload_register(function ($name) {
 		require $name . '.class.php';
 	});
 
-	$p1 = new Personne("Alexis", "Radchaïs", "Niort");
+	$p1 = new Personne("Radchaïs", "Alexis", "Niort");
 	$p2 = new Personne("Lamalice", "Toto", "Paris");
 	$p3 = new Personne("O'Lantern", "Jack", "Graveyard"); // Happy Halloween :3
 
@@ -22,4 +22,4 @@
 	echo $p2->getPersonne();
 	echo $p3->getPersonne();
 
-?></pre>
+?>
