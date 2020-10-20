@@ -10,13 +10,13 @@ Une méthode `setText()` doit permettre d'ajouter une zone de texte.
 
 Une méthode `setSubmit()` doit permettre d'ajouter un bouton d'envoi.
 
-Les paramètres de ces méthodes doivent correspondre aux attributs des él
-éments HTML correspondants.
+Les paramètres de ces méthodes doivent correspondre aux attributs des
+éléments HTML correspondants.
 
-La méthode getForm() doit afficher tout le code HTML de création du form
-ulaire.
+La méthode getForm() doit afficher tout le code HTML de création du
+formulaire.
 
-Créez un objets form, et ajoutez-y deux zones de texte et un bouton d'en
-voi.
+Créez un objets form, et ajoutez-y deux zones de texte et un bouton
+d'envoi.
 
 Testez l'affichage obtenu.
