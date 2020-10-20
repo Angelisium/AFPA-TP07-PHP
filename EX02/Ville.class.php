@@ -22,6 +22,10 @@
 		public function getCode(): int {
 			return $this->code;
 		}
+
+		public function showText(): string {
+			return "la ville " . $this->nom . " est dans le département " . $this->code . ".\n";
+		}
 	}
 
 ?>
