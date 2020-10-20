@@ -6,11 +6,9 @@
 
 	$ville1 = new Ville("Niort", 79000);
 
-	/*$ville2 = new Ville();
-	$ville2->setNom("Paris");
-	$ville2->setCode(75001);
+	$ville2 = new Ville("Paris", 75001);
 
-	$ville3 = new Ville();
+	/*$ville3 = new Ville();
 	$ville3->setNom("Bordeaux");
 	$ville3->setCode(33000);*/
 
