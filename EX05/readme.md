@@ -22,4 +22,19 @@ l'impôt suivant le revenu.
 Afficher la page index.php dans un navigateur.
 
 Le formulaire doit s'afficher. Saisir le nom (Dupond) et le revenu (10000).
-Cliquer sur OK. La phrase « Mr Dupond votre impôt est de 1500 euros » doit être affichée.
+
+Cliquer sur OK. La phrase « Mr Dupond votre impôt est de 1500 euros » doit être
+affichée.
+
+*Etape 2.*
+---
+Idem avec le nom Durant et le revenu 20000.
+
+Cliquer sur OK. La phrase « Mr Durant votre impôt est de 4000 euros » doit être
+affichée.
+
+*Etape 3.*
+---
+Regarder la class Impot, elle doit être définie avec un constructeur et deux
+méthode. La méthode `AfficherImpot()` fait appel à la méthode `CalculImpot()`.
+Les pourcentage de taxe sont définis avec le mot-clé "const".
