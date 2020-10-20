@@ -14,5 +14,7 @@
 	$a->setText("name", "Nom :");
 	$a->setText("pseudo", "Pseudo :");
 
+	$a->setSubmit("Go!");
+
 	echo $a->getForm();
 ?>
