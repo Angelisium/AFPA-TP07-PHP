@@ -10,6 +10,10 @@
 			$this->prenom = $b;
 			$this->adresse = $c;
 		}
+
+		public function setAdresse(string $a): void {
+			$this->adresse = $a;
+		}
 	}
 
 ?>
