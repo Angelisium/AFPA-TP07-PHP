@@ -8,13 +8,16 @@
 				throw new Exception('Missing action target');
 			}
 
-			$this->form .= '<form method="' . ($param['method'] ? $param['method'] : 'GET') . '">';
-			$this->form .= '<fieldset>';
+			$this->form .= '<form method="' . (isset($param['method']) ? $param['method'] : 'GET') . '">' . "\n";
+			$this->form .= "\t<fieldset>\n";
 			if(isset($param['titre'])) {
-				$this->form .= "<legend>" . $param['titre'] . "</legend>";
+				$this->form .= "\t\t<legend>" . $param['titre'] . "</legend>";
 			}
 		}
 
+		public function getForm(): string {
+			return $this->form . "\t</fieldset>\n</form>";
+		}
 	}
 
 ?>
