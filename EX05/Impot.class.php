@@ -15,7 +15,7 @@
 		}
 
 		public function CalculImpot(): int {
-			return $this->revenu * $this::TAUX[0] / 100;
+			return $this->revenu * self::TAUX[1] / 100;
 		}
 	}
 
