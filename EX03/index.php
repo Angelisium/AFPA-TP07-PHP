@@ -1,4 +1,5 @@
 <?php
+	header('Content-type: application/json');
 
 	spl_autoload_register(function ($name) {
 		require $name . '.class.php';
@@ -22,4 +23,5 @@
 	echo $p2->getPersonne();
 	echo $p3->getPersonne();
 
+	echo "\n";
 ?>
