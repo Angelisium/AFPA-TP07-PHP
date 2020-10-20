@@ -6,8 +6,8 @@
 	if($_SERVER['REQUEST_METHOD'] === 'POST'
 		&& isset($_POST['nom'])
 		&& isset($_POST['revenu'])) {
-			$revenu = new Impot($_POST['nom'], $_POST['revenu']);
-			$resultat = $revenu->AfficherImpot();
+			$i = new Impot($_POST['nom'], $_POST['revenu']);
+			$résultat = $i->AfficherImpot();
 	}
 
 ?>
@@ -19,7 +19,7 @@
 		<title>Calcul impôt</title>
 	</head>
 	<body>
-		<pre><?=var_export($revenu, true)?></pre>
+		<pre><?=var_export($i, true)?></pre>
 		<form method="POST">
 			<input type="text" name="nom" placeholder="Votre nom"><br>
 			<input type="number" name="revenu" placeholder="Votre revenu"><br>
