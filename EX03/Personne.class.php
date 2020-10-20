@@ -16,7 +16,7 @@
 		}
 
 		public function getPersonne(): string {
-			return $this->prenom . " " . $this->nom . " habite à " . $this->adresse . ".";
+			return $this->prenom . " " . $this->nom . " habite à " . $this->adresse . ".\n";
 		}
 	}
 
