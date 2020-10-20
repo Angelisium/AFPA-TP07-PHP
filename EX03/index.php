@@ -5,5 +5,6 @@
 	});
 
 	$p1 = new Personne("Alexis", "Radchaïs", "Niort");
+	$p2 = new Personne("Toto", "Lamalice", "Paris");
 
 ?></pre>
