@@ -6,6 +6,7 @@
 
 	$ville1 = new Ville();
 	$ville1->setNom("Niort");
+	$ville1->setCode(79000);
 	var_dump($ville1);
 
 ?>
