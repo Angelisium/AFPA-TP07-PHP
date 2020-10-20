@@ -19,7 +19,7 @@
 		<title>Calcul impôt</title>
 	</head>
 	<body>
-		<pre><?=var_export($_POST, true)?></pre>
+		<pre><?=var_export($revenu, true)?></pre>
 		<form method="POST">
 			<input type="text" name="nom" placeholder="Votre nom"><br>
 			<input type="number" name="revenu" placeholder="Votre revenu"><br>
