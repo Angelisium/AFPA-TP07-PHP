@@ -10,6 +10,10 @@
 		public function setCode(int $a): void {
 			$this->code = $a;
 		}
+
+		public function getNom(): string {
+			return $this->nom;
+		}
 	}
 
 ?>
