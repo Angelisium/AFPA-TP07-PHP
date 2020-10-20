@@ -1,4 +1,5 @@
-<pre><?php
+<?php
+	header('Content-type: application/json');
 
 	spl_autoload_register(function ($name) {
 		require $name . '.class.php';
@@ -8,5 +9,5 @@
 		'action' => $_SERVER['PHP_SELF'],
 	));
 
-	var_dump($a);
-?></pre>
+	echo $a->getForm();
+?>
