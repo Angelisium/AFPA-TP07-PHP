@@ -14,6 +14,10 @@
 		public function setAdresse(string $a): void {
 			$this->adresse = $a;
 		}
+
+		public function getPersonne(): string {
+			return $this->prenom . " " . $this->nom . " habite à " . $this->adresse . ".";
+		}
 	}
 
 ?>
