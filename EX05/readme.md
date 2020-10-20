@@ -19,3 +19,7 @@ l'impôt suivant le revenu.
 
 *Etape 1.*
 ---
+Afficher la page index.php dans un navigateur.
+
+Le formulaire doit s'afficher. Saisir le nom (Dupond) et le revenu (10000).
+Cliquer sur OK. La phrase « Mr Dupond votre impôt est de 1500 euros » doit être affichée.
