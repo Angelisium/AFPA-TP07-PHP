@@ -11,5 +11,8 @@
 		'method' => "POST",
 	));
 
+	$a->setText("name", "Nom :");
+	$a->setText("pseudo", "Pseudo :");
+
 	echo $a->getForm();
 ?>
