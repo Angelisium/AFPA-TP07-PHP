@@ -11,7 +11,7 @@
 			$this->form .= '<form method="' . (isset($param['method']) ? $param['method'] : 'GET') . '">' . "\n";
 			$this->form .= "\t<fieldset>\n";
 			if(isset($param['titre'])) {
-				$this->form .= "\t\t<legend>" . $param['titre'] . "</legend>";
+				$this->form .= "\t\t<legend>" . $param['titre'] . "</legend>\n";
 			}
 		}
 
