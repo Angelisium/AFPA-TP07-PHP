@@ -24,8 +24,8 @@
 			$this->form .= "\t\t</label>\n";
 		}
 
-		public function setSubmit(): void {
-
+		public function setSubmit(string $text): void {
+			$this->form .= "\t\t" . '<button>' . $text . '</button>' . "\n";
 		}
 
 		public function getForm(): string {
