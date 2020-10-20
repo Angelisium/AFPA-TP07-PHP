@@ -1,4 +1,4 @@
-<?php
+<pre><?php
 
 	spl_autoload_register(function ($name) {
 		require $name . '.class.php';
@@ -20,4 +20,4 @@
 	var_dump($ville2);
 	var_dump($ville3);
 
-?>
+?></pre>
