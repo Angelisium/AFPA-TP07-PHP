@@ -4,7 +4,9 @@
 		require $name . '.class.php';
 	});
 
-	$a = new Form();
+	$a = new Form(array(
+		
+	));
 
 	var_dump($a);
 ?></pre>
