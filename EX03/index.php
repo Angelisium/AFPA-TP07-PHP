@@ -5,7 +5,7 @@
 	});
 
 	$p1 = new Personne("Alexis", "Radchaïs", "Niort");
-	$p2 = new Personne("Toto", "Lamalice", "Paris");
+	$p2 = new Personne("Lamalice", "Toto", "Paris");
 	$p3 = new Personne("O'Lantern", "Jack", "Graveyard"); // Happy Halloween :3
 
 	echo $p1->getPersonne();
