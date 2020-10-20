@@ -12,6 +12,8 @@
 	echo $p2->getPersonne();
 	echo $p3->getPersonne();
 
+	echo "\n";
+
 	$p1->setAdresse("Bordeaux");
 	$p2->setAdresse("Niort");
 	$p3->setAdresse("at your home");
