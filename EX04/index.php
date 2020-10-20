@@ -8,6 +8,7 @@
 	$a = new Form(array(
 		'action' => $_SERVER['PHP_SELF'],
 		'titre' => "Mon super formulaire",
+		'method' => "PUT",
 	));
 
 	echo $a->getForm();
