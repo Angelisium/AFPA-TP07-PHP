@@ -4,4 +4,6 @@
 		require $name . '.class.php';
 	});
 
+	$p1 = new Personne("Alexis", "Radchaïs", "Niort");
+
 ?></pre>
