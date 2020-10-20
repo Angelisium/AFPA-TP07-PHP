@@ -16,8 +16,8 @@
 	$ville3->setNom("Bordeaux");
 	$ville3->setCode(33000);
 
-	var_dump($ville1);
-	var_dump($ville2);
-	var_dump($ville3);
+	echo $ville1->showText();
+	echo $ville2->showText();
+	echo $ville3->showText();
 
 ?></pre>
