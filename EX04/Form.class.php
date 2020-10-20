@@ -24,6 +24,10 @@
 			$this->form .= "\t\t</label>\n";
 		}
 
+		public function setSubmit(): void {
+
+		}
+
 		public function getForm(): string {
 			return $this->form . "\t</fieldset>\n</form>";
 		}
