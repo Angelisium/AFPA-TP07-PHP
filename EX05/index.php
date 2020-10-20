@@ -6,7 +6,8 @@
 	if($_SERVER['REQUEST_METHOD'] === 'POST'
 		&& isset($_POST['nom'])
 		&& isset($_POST['revenu'])) {
-			$résultat = new Impot($_POST['nom'], $_POST['revenu']);
+			$i = new Impot($_POST['nom'], $_POST['revenu']);
+			$résultat = $i->AfficherImpot();
 	}
 
 ?>
@@ -24,7 +25,7 @@
 			<button>OK</button>
 		</form>
 		<!--<?php if($résultat) { ?>-->
-			<p><?=$résultat->AfficherImpot()?></p>
+			<p><?=$résultat?></p>
 		<!--<?php } ?>-->
 	</body>
 </html>
